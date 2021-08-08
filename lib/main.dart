@@ -5,6 +5,7 @@ import 'package:movie_app_with_rest_api/pages/splash_page.dart';
 
 void main() {
   runApp(SplashPage(
+    key: UniqueKey(),
     onInitializationComplete: () => runApp(
       ProviderScope(
         child: MyApp(),
